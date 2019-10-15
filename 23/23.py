@@ -20,8 +20,6 @@ def abundant_list(maximum):
 
 necessary_abundants = set(abundant_list(max_imperfect))
 
-print(abundant_list(270))
-
 def cannot_be_written_as_sum(n):
     for k in necessary_abundants:
         if k >= n:
